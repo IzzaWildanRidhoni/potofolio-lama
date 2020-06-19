@@ -1,65 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>PORTOFOLIO</title>
-	<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-	  <link href="css/all.min.css" rel="stylesheet">
-	  <script src="js/all.min.js"></script>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body id="home">
-	<div class="nav">	
-	<div class="brand">WILDEV</div>
-	<ul>
-		<li><a href="#home">Home</a></li>
-		<li><a href="#story">My Story</a></li>
-		<li><a href="#contact">Contact</a></li>
-	</ul>
-	</div>
-	<div class="jumbotron">
-		<div class="row">
-			<div class="col">
-				<div class="img"></div>
-			</div>
-			<div class="col info">
-				<h1>Hello !</h1>
-				<span class="name">My Name <br><b>IZZA WILDAN RIDHONI</b></span>
-				<span class="small">JUNIOR WEB DEVELOPER</span>
-				<a href=""><i class="fab fa-whatsapp"></i></a>
-				<a href=""><i class="fab fa-github"></i></a>
-				<a href=""><i class="fab fa-facebook"></i></a>
-				<a href=""><i class="fab fa-twitter"></i></a>
-				<a href=""><i class="fab fa-instagram"></i></a>
-			</div>
-		</div>
-	</div>
-	<div class="container" id="story">
-		<span class="judul">MY STORY</span>
-		<div class="row">
-			<div class="col">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure et aut magnam sunt reprehenderit, ipsam laudantium reiciendis animi nulla totam esse, repellendus velit delectus incidunt adipisci quibusdam debitis suscipit fuga.
-			</div>
-			<div class="col">
+  <head>
+    <title>Portofolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores amet earum aperiam sed eligendi minus rem assumenda at illum, ullam velit rerum, quaerat omnis architecto quia ipsum quas. Cum, odit.
-			</div>
-		</div>
-	</div>
-	<div class="contact container" id="contact">
-		<h1>Contact</h1>
-		<form action="">
-			<label for="nama">Nama</label>
-			<input type="text" id="nama" name="nama">
-			<label for="email">Email</label>
-			<input type="text" id="email" name="email">
-			<label for="pesan">Pesan</label>
-			<textarea id="pesan" name="pesan" rows="10"></textarea> 
-			<button type="submit">Kirim</button>
-		</form>
-	</div>
-	<div class="footer">
-		<span>Copyright &copy;2019</span>
-	</div>
-</body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <nav class=" navbar navbar-expand-lg navbar-dark fixed-top bg-biru">
+      <div class="container">
+        <a class="navbar-brand" href="#">Wildan <i class="fa fa-code"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#home">Home</a>
+            <a class="nav-item nav-link active" href="#about">About Me</a>
+            <a class="nav-item nav-link active" href="#exp">My Expertises</a>
+            <a class="nav-item nav-link active" href="#service">Our Services</a>
+            <a class="nav-item nav-link active" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron" id="home">
+        <img src="img/pattern.png" alt="" class="pattern">
+      <div class="container">
+        <div class="row homedepan">
+          <div class="col-md-7 judul">
+            <h1>IZZA WILDAN R</h1>
+            <span>web programmer & web desainer</span>
+            <a href="#">Contact Me</a>
+          </div>
+          <div class="col-md-5">
+            <img src="img/wildan bg.png" alt=""  class="wld">
+          </div>
+        </div>
+      </div>
+      <img src="img/wave11.png" alt="" class="glmbng">
+    </div>
+    
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="img/coding.svg" alt="" width="80%">
+          </div>
+          <div class="col-sm-6 aboutitle">
+            <h1 class="title">About <span> Me</span></h1>
+            <span class="w">Hello i'm Izza Wildan Ridhoni</span>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, alias, labore laudantium voluptate nisi rerum neque assumenda, dolores cum quas dolorum quo itaque autem repellendus omnis ratione quis doloremque quae!
+            </p>
+            <div class="sosmed">
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="expertises" id="exp">
+      <div class="container">
+        <h1 class="title"><span>My</span> Expertises</h1>
+        <center><span>Lorem ipsum dolor, sit amet consectetur</span></center>
+        <div class="row skill">
+          <div class="kotak col-sm">
+            <h5>Desain Skills</h5>
+            <span>Photoshop</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>Corel Draw</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>Adobe Xd</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>Paint</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="kotak col-sm">
+            <h5>Coding Skills</h5>
+            <span>Bootstrap</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>JavaScript</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>Laravel</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>Codeigniter</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 76%;" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service" id="service">
+      <div class="container">
+        <center><h1 class="title"><span>Our</span> Services</h1></center>
+        <center><span>Lorem ipsum dolor, sit amet consectetur</span></center>
+
+        <div class="row">
+          <div class="col-sm box">
+            <div class="ket">Web Development</div>
+          </div>
+          <div class="col-sm box">
+            <div class="ket">Graphic Desainer</div>
+          </div>
+          <div class="col-sm box">
+            <div class="ket">Android Development</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <img src="img/wave2.png" alt="" width="101%">
+      <div class="me">
+        <h1>Contact <span>Me</span></h1>
+        <input type="text" placeholder="Nama anda">
+        <input type="email" placeholder="Email">
+        <textarea name="pesan" id="pesan" rows="7" placeholder="pesan"></textarea>
+        <button>Kirim</button>
+      </div>
+    </div>
+
+    <div class="footer">Create By Izza Wildan Ridhoni</div>
+
+    <div class="toup"><a href="#"><i class="fa fa-arrow-up"></i></a></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
