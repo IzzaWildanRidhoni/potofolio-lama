@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lombokfoss</title>
+    <link>https://www.lombokfoss.com/</link>
+    <description>Recent content on Lombokfoss</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Aug 2021 23:19:31 +0700</lastBuildDate><atom:link href="https://www.lombokfoss.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar Hugo, bagaimana caranya ?</title>
+      <link>https://www.lombokfoss.com/belajar-hugo-bagaimana-caranya/</link>
+      <pubDate>Wed, 04 Aug 2021 23:19:31 +0700</pubDate>
+      
+      <guid>https://www.lombokfoss.com/belajar-hugo-bagaimana-caranya/</guid>
+      <description>&lt;p&gt;hugo best&lt;/p&gt;
+&lt;p&gt;What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Apt vs Apt Get, Apa perbedaanya ? </title>
+      <link>https://www.lombokfoss.com/apt-vs-apt-get-apa-perbedaanya/</link>
+      <pubDate>Wed, 04 Aug 2021 23:14:25 +0700</pubDate>
+      
+      <guid>https://www.lombokfoss.com/apt-vs-apt-get-apa-perbedaanya/</guid>
+      <description>&lt;p&gt;isi kontennya disini !&lt;/p&gt;
+&lt;p&gt;What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
